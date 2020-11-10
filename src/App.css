@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+.inside {
+  padding-top: 10%;
+  color:  #aa9207;
+  animation-name: translition;
+  animation-duration: 1.5s;
+  list-style: none;
+}
+
+@keyframes translition {
+  from {transform: rotate(360deg)}
+  to {transform: rotate();}
+}
